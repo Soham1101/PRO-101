@@ -31,7 +31,6 @@ def main():
     file_from = str(input("File to be uploaded: "))
     file_to = input("full path to upload the file to: ") 
 
-    # API v2
     transferData.upload_file(file_from,file_to)
     print("File moved")
 
